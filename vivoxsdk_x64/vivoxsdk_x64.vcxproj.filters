@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Dependencies">
+      <UniqueIdentifier>{b592ca6c-6e57-441f-8844-138b8b78e673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Vivox">
+      <UniqueIdentifier>{bf470973-408a-4729-9b51-3c117643796c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vivox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vivox_sdk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="memcury.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="skCrypter.h">
+      <Filter>Dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="lazy_Importer.h">
+      <Filter>Dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="stub\Vxc.h">
+      <Filter>Header Files\Vivox</Filter>
+    </ClInclude>
+    <ClInclude Include="stub\VxcResponses.h">
+      <Filter>Header Files\Vivox</Filter>
+    </ClInclude>
+    <ClInclude Include="stub\VxcTypes.h">
+      <Filter>Header Files\Vivox</Filter>
+    </ClInclude>
+    <ClInclude Include="stub\VxcRequests.h">
+      <Filter>Header Files\Vivox</Filter>
+    </ClInclude>
+    <ClInclude Include="stub\VxcEvents.h">
+      <Filter>Header Files\Vivox</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vivox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vivox_handle_requests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
