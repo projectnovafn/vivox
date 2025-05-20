@@ -15,5 +15,5 @@ Contributions are welcome, if you would like to contribute feel free to open a p
 
 This project is licensed under the [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) license.
 
-> **Disclaimer:** Portions of this project contain trademarks and/or copyrighted content belonging to Unity Technologies, Inc.  
+> **Disclaimer:** Portions of this project contain trademarks and/or copyrighted content belonging to Unity Technologies. 
 > This project is **not affiliated with or endorsed by Unity Technologies**.
